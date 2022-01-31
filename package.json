@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass.scss:./style.css",
-    "prefix": "postcss ./wacor/projet3/style.css --use autoprefixer -d ./wacor/projet3/prefixed/"
+    "sass": "sass --watch ./sass.scss:css/style.css",
+    "prefix": "postcss ./wacor/projet3/css/style.css --use autoprefixer -d ./wacor/projet3/prefixed/"
   },
 
   "repository": {
