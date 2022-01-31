@@ -1,0 +1,24 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass.scss:./style.css",
+    "prefix": "postcss ./wacor/projet3/style.css --use autoprefixer -d ./wacor/projet3/prefixed/"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthieuOrduna/Orduna_3_31012022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist":"last 4 versions",
+  "bugs": {
+    "url": "https://github.com/MatthieuOrduna/Orduna_3_31012022/issues"
+  },
+  "homepage": "https://github.com/MatthieuOrduna/Orduna_3_31012022#readme"
+}
+
+
