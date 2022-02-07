@@ -1,3 +1,4 @@
+@import 'projet3/pattern/base/base.css';
 @font-face {
   font-family: Roboto;
   src: url(Roboto-Regular.ttf);
@@ -21,35 +22,29 @@ img {
 
 footer {
   background-color: #353535;
+  color: white;
 }
 
-section, .header-grey, .heart {
+section, .header--grey, .main__title, .item__icon, .nav__box {
   background-color: #f6f6f6;
 }
 
-.header-border {
+.header__border {
   border-top: grey 2px solid;
   background-color: #eaeaea;
-  display: flex;
 }
 
-.number {
+.nav__number {
   background-color: #9356dc;
   border-radius: 25px;
+  /*Est-il possible de le faire en une fois?*/
 }
 
-.box {
-  background-color: #f6f6f6;
-  display: flex;
-  box-shadow: grey 2px 2px 2px;
-  border-radius: 25px;
-}
-
-.menu, .screen, .footer-icon, .heart, .arrow, .price {
+.nav__menu, .item__screen, .footer__icon, .main__title, .item__icon, .header__icon, .section__price, .nav__box, .header__border {
   display: flex;
 }
 
-.new {
+.item--color {
   background-color: #99e2d0;
 }
 
@@ -57,15 +52,14 @@ h3 {
   border-bottom: #99e2d0 solid 2px;
 }
 
-.item {
+.item, .section__item {
   background-color: white;
-  border-radius: 25px;
-  box-shadow: grey 2px 2px 2px;
 }
 
-.shadow {
+.header__shadow, .main__shadow, .item, .section__item, .nav__box {
   box-shadow: grey 2px 2px 2px;
   border-radius: 25px;
+  /*Est-il possible de le faire en une fois?*/
 }
 
 /*# sourceMappingURL=style.css.map */
