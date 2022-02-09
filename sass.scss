@@ -1,11 +1,23 @@
-@import  'projet3/pattern/base/base.css';
-
 @font-face { font-family: Roboto; src: url(Roboto-Regular.ttf),}
 @font-face { font-family: RobotoBold; src: url(Roboto-Bold.ttf),}
 @font-face { font-family: RobotoBlack; src: url(Roboto-Black.ttf),}
+@font-face { font-family: Shrikhand; src: url(Shrikhand-Regular.ttf),}
 
 body{
     font-family: 'Roboto';
+}
+
+.footer--font{
+    font-family: 'Shrikhand';
+    padding-bottom :5%;
+}
+
+.footer--width-icon{
+    width : 8%;
+}
+
+.footer--width-txt{
+    width: 92%;
 }
 
 img{
@@ -16,6 +28,15 @@ img{
 footer{
     background-color: #353535;
     color: white;
+    padding : 7%;
+}
+
+footer div{
+    padding-bottom: 2%;
+}
+
+.footer__icon{
+    padding-bottom: 0%;
 }
 
 section, .header--grey, .main__title, .item__icon, .nav__box{
@@ -29,7 +50,6 @@ section, .header--grey, .main__title, .item__icon, .nav__box{
 
 .nav__number{
     background-color: #9356dc;
-    border-radius: 25px; /*Est-il possible de le faire en une fois?*/
 }
 
 .nav__menu, .item__screen, .footer__icon, .main__title, .item__icon, .header__icon, .section__price, .nav__box, .header__border{
@@ -50,5 +70,8 @@ h3{
 
 .header__shadow, .main__shadow, .item, .section__item, .nav__box{
     box-shadow: grey 2px 2px 2px;
-    border-radius: 25px; /*Est-il possible de le faire en une fois?*/
+}
+
+.header__shadow, .main__shadow, .item, .section__item, .nav__box, .nav__number{
+    border-radius: 25px;
 }
