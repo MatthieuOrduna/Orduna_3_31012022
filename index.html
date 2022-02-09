@@ -11,26 +11,32 @@
 </head>
 <body>
     <header>
-        <div>
-        <img
+        <div class="header__logo">
+        <img class="header__logo--size"
             src="images/logo/ohmyfood.png" 
             srcset="images/logo/ohmyfood@2x.svg 2x,
                     images/logo/ohmyfood.png 1x"   
             alt="Logo du site">
         </div>
-        <div class="header__border">
-            <div>
+        <div class="header__border"> <!--Peut-être faire un fondu pour le border-top?-->
+            <div class="header__border--width-icon">
                 <i class="fas fa-map-marker-alt"></i>
             </div>
-            <div>
+            <div class="header__border--width-txt">
                 Paris, Belleville
             </div>
         </div>
         <div class="header--grey">
-            <div>
-                <h1>Réservez le menu qui vous convient</h1>
+            <div class="header__h1">
+                <h1 class="header__h1--style">
+                    <div>Réservez le menu qui </div>
+                    <div>vous convient</div>
+                </h1>
             </div>
-            <div>Découvrez des restaurants d'exception, selectionnés par nos soins.</div>
+            <div class="header__subtitle--style">
+                <div>Découvrez des restaurants d'exception,</div>
+                <div>selectionnés par nos soins.</div>
+            </div>
             <input class="header__shadow" type="button" value="Explorer nos restaurants"/>
         </div>
     </header>

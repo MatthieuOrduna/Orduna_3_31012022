@@ -3,21 +3,10 @@
 @font-face { font-family: RobotoBlack; src: url(Roboto-Black.ttf),}
 @font-face { font-family: Shrikhand; src: url(Shrikhand-Regular.ttf),}
 
+@import "pattern/layout/footer.scss";
+
 body{
     font-family: 'Roboto';
-}
-
-.footer--font{
-    font-family: 'Shrikhand';
-    padding-bottom :5%;
-}
-
-.footer--width-icon{
-    width : 8%;
-}
-
-.footer--width-txt{
-    width: 92%;
 }
 
 img{
@@ -25,26 +14,12 @@ img{
     height: 30%;
 }
 
-footer{
-    background-color: #353535;
-    color: white;
-    padding : 7%;
-}
-
-footer div{
-    padding-bottom: 2%;
-}
-
-.footer__icon{
-    padding-bottom: 0%;
-}
-
 section, .header--grey, .main__title, .item__icon, .nav__box{
     background-color: #f6f6f6;
 }
 
 .header__border{
-    border-top : grey 2px solid;
+    border-top : #d3d3d3 2px solid;
     background-color: #eaeaea;
 }
 
@@ -52,7 +27,7 @@ section, .header--grey, .main__title, .item__icon, .nav__box{
     background-color: #9356dc;
 }
 
-.nav__menu, .item__screen, .footer__icon, .main__title, .item__icon, .header__icon, .section__price, .nav__box, .header__border{
+.nav__menu, .item__screen, .footer__icon, .main__title, .item__icon, .header__icon, .section__price, .nav__box, .header__border, .header__logo{
     display: flex;
 }
 
@@ -74,4 +49,66 @@ h3{
 
 .header__shadow, .main__shadow, .item, .section__item, .nav__box, .nav__number{
     border-radius: 25px;
+}
+
+.header__logo{
+    margin : 3%;
+    justify-content: center;
+}
+
+.header__border{
+    padding-left : 26%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.header__logo--size{
+    width : 50%;
+}
+
+.header__border--width-icon{
+    width: 8%;
+}
+
+.header__border--width-txt{
+    width: 92%;
+}
+
+.header__h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.header__h1--style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 2%;
+    font-size: 130%;
+}
+
+.header__subtitle--style{
+    font-size : 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-bottom : 8%;
+}
+
+.header--grey{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
+    align-items: center;
+}
+
+.header__shadow{
+    width: 65%;
+    height : 50px;
+    justify-content: center;
+    font-size: 90%;
+    color : white;
+    border-style: none;
+    background: radial-gradient(farthest-corner at 49px 1px, lighten(#ef74da, 5)0%, darken(#9356dc, 10)100%);
 }
