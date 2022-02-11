@@ -44,7 +44,7 @@ h3{
 }
 
 .header__shadow, .main__shadow, .item, .section__item, .nav__box{
-    box-shadow: grey 2px 2px 2px;
+    box-shadow: rgb(233, 230, 230) 6px 6px 6px;
 }
 
 .header__shadow, .main__shadow, .item, .section__item, .nav__box, .nav__number{
@@ -111,4 +111,31 @@ h3{
     color : white;
     border-style: none;
     background: radial-gradient(farthest-corner at 49px 1px, lighten(#ef74da, 5)0%, darken(#9356dc, 10)100%);
+}
+
+.nav__number{
+    width: 25px;
+    height : 25px;
+}
+
+.nav__box{
+    height : 65px;
+    width: 100%;
+    align-items: center;
+}
+
+.nav__menu{
+    align-items: center;
+    width : 90%;
+    height : 82px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav h2{
+    width : 90%;
 }
