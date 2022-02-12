@@ -4,6 +4,8 @@
 @font-face { font-family: Shrikhand; src: url(Shrikhand-Regular.ttf),}
 
 @import "pattern/layout/footer.scss";
+@import "pattern/composants/bouton.scss";
+@import "pattern/pages/accueil.scss";
 
 body{
     font-family: 'Roboto';
@@ -14,16 +16,13 @@ img{
     height: 30%;
 }
 
-section, .header--grey, .main__title, .nav__box{
+.main__title{
     background-color: #f6f6f6;
 }
 
-.header__border{
-    border-top : #d3d3d3 2px solid;
-    background-color: #eaeaea;
-}
 
-.nav__menu,.item--color, .item__screen, .footer__icon, .main__title, .item__icon, .header__icon, .section__price, .nav__box, .header__border, .header__logo{
+
+.main__title, .header__icon, .section__price{
     display: flex;
 }
 
@@ -31,211 +30,15 @@ h3{
     border-bottom: #99e2d0 solid 2px;
 }
 
-.item, .section__item{
-    background-color: white;
-}
-
-.header__shadow, .main__shadow, .section__item, .nav__box{
+.main__shadow{
     box-shadow: rgb(233, 230, 230) 6px 6px 6px;
 }
 
-.header__shadow, .main__shadow, .section__item, .nav__box, .nav__number{
+.main__shadow{
     border-radius: 25px;
-}
-
-.header__logo{
-    margin : 3%;
-    justify-content: center;
-}
-
-.header__border{
-    padding-left : 26%;
-    padding-top: 3%;
-    padding-bottom: 4%;
-}
-
-.header__logo--size{
-    width : 50%;
-}
-
-.header__border--width-icon{
-    width: 8%;
-}
-
-.header__border--width-txt{
-    width: 92%;
-}
-
-.header__h1{
-    display: flex;
-    justify-content: center;
-    padding-top: 8%;
-}
-
-.header__h1--style{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top : 2%;
-    font-size: 130%;
-}
-
-.header__subtitle--style{
-    font-size : 100%;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    margin-bottom : 8%;
-}
-
-.header--grey{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 15%;
-    align-items: center;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
-.header__shadow{
-    width: 65%;
-    height : 50px;
-    justify-content: center;
-    font-size: 90%;
-    color : white;
-    border-style: none;
-    background: radial-gradient(farthest-corner at 49px 1px, lighten(#ef74da, 5)0%, darken(#9356dc, 10)100%);
-}
-
-.nav__number{
-    width: 25px;
-    height : 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute; left: 9%;
-    color: white;
-    background-color: #9356dc;
-}
-
-.nav__box{
-    margin-left: 2%;
-    padding-left : 10%;
-    height : 65px;
-    width: 100%;
-    align-items: center;
-    font-weight: bold;
-}
-
-.nav__menu{
-    align-items: center;
-    width : 98%;
-    height : 82px;
-}
-
-nav{
-    display: flex;
-    margin-left: 2%;
-    flex-direction: column;
-    padding : 7%;
-}
-
-nav h2{
-    width : 90%;
-    font-size: 130%;
 }
 
 a{
     text-decoration: none;
     color: black;
-}
-
-.nav__box--space-icon{
-    width : 12%;
-}
-
-.header__border--link{
-    width : 92%;
-    color : black;
-}
-
-.header__shadow--link{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.nav__box--font{
-    font-size: 90%;
-}
-
-section{
-    padding : 7%;
-    padding-bottom: 8%;
-    padding-top: 8%;
-    margin-top: 10%;
-}
-
-section img{
-    width : 100%;
-    object-fit: cover;
-    height : 150px;
-    border-radius: 5% 5% 0 0;
-}
-
-.item__img{
-    height : 150px;
-}
-
-.item--color{
-    position: absolute;
-    right : 12%;
-    width : 15%;
-    background-color: #99e2d0;
-    margin-top : 3%;
-    border-radius: 5%;
-    justify-content: center;
-    align-items: center;
-    color : #149374;
-    font-weight: bold;
-    font-size: 65%;
-    padding : 1%;
-}
-
-.item__icon{
-    background-color: white;
-    border-radius: 0 0 5% 5%;
-    height: 40px;
-    box-shadow: #e9e6e6 0px 2px 6px 6px;
-    padding: 5%;
-}
-
-.item{
-    margin-bottom: 6%;
-    border-radius: 25%;
-}
-
-.item__icon h2{
-    margin : 0;
-    font-size : 90%;
-}
-
-section h2{
-    font-size: 130%;
-}
-
-.item__icon--size{
-    font-size: 85%;
-}
-
-.item__icon--dispo{
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
-}
-
-.item__icon__heart{
-    position: absolute;
-    left : 78%;
-    margin-top: 2%;
 }
