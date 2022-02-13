@@ -137,7 +137,7 @@ section{
 
 section img{
     object-fit: cover;
-    border-radius: 5% 5% 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 .item__img, section img{
@@ -150,14 +150,14 @@ section img{
     width : 15%;
     background-color: #99e2d0;
     margin-top : 3%;
-    border-radius: 5%;    
+    border-radius: 5px;    
     color : #149374;
     font-size: 65%;
     padding : 1%;
 }
 
 .item__icon{
-    border-radius: 0 0 5% 5%;
+    border-radius: 0 0 20px 20px;
     height: 40px;
     box-shadow: #e9e6e6 0px 2px 6px 6px;
     padding: 5%;
@@ -183,4 +183,29 @@ section img{
 .item__icon__heart{
     position: absolute;
     left : 78%;
+}
+
+@media all and (min-width:458px)
+{
+    .header--grey{
+        padding-bottom : 5%;
+    }
+    .header__h1{
+        padding-top : 0%;
+    }
+    nav{
+        padding-top : 2%;
+    }
+    section{
+        margin-top : 0%;
+    }
+    nav, section{
+        padding-bottom: 2%;
+    }
+    .item{
+        width: 50%;
+    }
+    .header__h1--style{
+        flex-direction: initial;
+    }
 }

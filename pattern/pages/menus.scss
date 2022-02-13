@@ -116,3 +116,24 @@
     .section__bouton{
         padding-bottom:20%;
     }
+
+    @media all and (min-width:426px)
+{
+    .main__title{
+        position: initial;
+        padding-bottom: 0%;
+        justify-content: center;
+    }
+    .main__title h2{
+        margin-right: 5%;
+    }
+    .section__details--margin{
+        margin-bottom: 5%;
+    }
+    .section__bouton{
+        padding-bottom: 5%;
+    }
+    .section__details, .section__details--margin{
+        padding-top: 0%;
+    }
+}
