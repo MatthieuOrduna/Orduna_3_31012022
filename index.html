@@ -10,26 +10,18 @@
     <link rel="shortcut icon" href="images/logo/ohmyfood.png" type="image/png"/> <!--Met un logo dans l'onglet du navigateur.-->
 </head>
 <body>
-    <div class="loading">
-        <span class="lettre">C</span>
-        <span class="lettre">H</span>
-        <span class="lettre">A</span>
-        <span class="lettre">R</span>
-        <span class="lettre">G</span>
-        <span class="lettre">E</span>
-        <span class="lettre">M</span>
-        <span class="lettre">E</span>
-        <span class="lettre">N</span>
-        <span class="lettre">T</span>
-    </div>
     <header>
-        <div class="header__logo">
-        <img class="header__logo--size"
-            src="images/logo/ohmyfood.png" 
-            srcset="images/logo/ohmyfood@2x.svg 2x,
-                    images/logo/ohmyfood.png 1x"   
-            alt="Logo du site">
+        <div class="header__icon">
+            <div class="header__img-logo">
+                <img 
+                src="images/logo/ohmyfood.png" 
+                srcset="images/logo/ohmyfood@2x.svg 2x,
+                        images/logo/ohmyfood.png 1x"   
+                alt="Logo du site">
+            </div>
         </div>
+    </header>
+    <main>
         <div class="header__border"> <!--Peut-être faire un fondu pour le border-top?-->
             <div class="header__border--width-icon">
                 <i class="fas fa-map-marker-alt"></i>
@@ -55,8 +47,6 @@
             <input class="header__shadow" type="button" value="Explorer nos restaurants"/>
             </a>
         </div>
-    </header>
-    <main>
         <nav>
         <h2>Fonctionnement</h2>
             <a href="#">

@@ -11,7 +11,7 @@
         font-size:small;
     }
     
-    .header__icon, .main__title{
+    .main__title{
         align-items: center;
     }
 
@@ -33,31 +33,12 @@
         padding-bottom: 0%;
     }
     
-    .main__title, .header__icon, .section__price, .header-menu__logo, .section__bouton, .section__item{
+    .main__title, .section__price, .section__bouton, .section__item{
         display: flex;
     }
-    
-    .header__icon{
-        margin-top: 4%;
-        margin-bottom: 4%;
-    }
-    
-    .header-menu__logo img{
-        width : 55%;
-        height : 100%;
-    }
-    
-    .header-menu__logo{
-        width : 100%;
-    }
 
-    .section__bouton, .header-menu__logo{
+    .section__bouton{
         justify-content: center;
-    }
-    
-    .header-menu__arrow{
-        position: absolute;
-        left : 5%;
     }
     
     h3{
