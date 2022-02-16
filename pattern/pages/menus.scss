@@ -1,4 +1,4 @@
-    .header-menu__img{
+    .main__menu__img{
     height: 250px;
     object-fit: cover;
     }
@@ -103,18 +103,35 @@
     .main__title{
         position: initial;
         padding-bottom: 0%;
+    }
+    .main__title, h3{
         justify-content: center;
     }
     .main__title h2{
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .section__details--margin{
-        margin-bottom: 5%;
-    }
-    .section__bouton{
-        padding-bottom: 5%;
+        margin-bottom: 0%;
     }
     .section__details, .section__details--margin{
         padding-top: 0%;
+    }
+    h3{
+        display: flex;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .section__item{
+        height: 90px;
+        justify-content: space-between;
+    }
+    .section__details--margin, .section__menu--pading, .section__bouton{
+        padding-bottom: 5%;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .section__price{
+        font-size: 18px;
     }
 }
