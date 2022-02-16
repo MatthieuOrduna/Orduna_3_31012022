@@ -70,7 +70,7 @@ footer div {
     padding: 30px;
   }
 }
-.header__shadow {
+.main__shadow {
   width: 65%;
   height: 50px;
   justify-content: center;
@@ -84,16 +84,16 @@ footer div {
   background: radial-gradient(farthest-corner at 49px 1px, #f28be0 0%, #782cd3 100%);
 }
 
-section, .header--grey, .nav__box {
+section, .main--grey, .nav__box {
   background-color: #f6f6f6;
 }
 
-.header__border {
+.main__border {
   border-top: #d3d3d3 2px solid;
   background-color: #eaeaea;
 }
 
-.nav__menu, .item__icon--dispo, .header__shadow--link, .nav__number, nav, .header__subtitle--style, .header--grey, .header__h1--style, .item--color, .header__h1, .item__screen, .item__icon, .nav__box, .header__border, .header__logo {
+.nav__menu, .item__icon--dispo, .main__shadow--link, .nav__number, nav, .main__subtitle--style, .main--grey, .main__h1--style, .item--color, .main__h1, .item__screen, .item__icon, .nav__box, .main__border, .header__logo {
   display: flex;
 }
 
@@ -113,50 +113,50 @@ section, .header--grey, .nav__box {
   margin: 3%;
 }
 
-.header__logo, .header__h1, .nav__number, .item--color, .header__shadow--link {
+.header__logo, .main__h1, .nav__number, .item--color, .main__shadow--link {
   justify-content: center;
 }
 
-.header__border {
+.main__border {
   padding-left: 26%;
   padding-top: 3%;
   padding-bottom: 4%;
 }
 
-.header__border--width-icon {
+.main__border--width-icon {
   width: 8%;
 }
 
-.header__border--width-txt, .header__border--link {
+.main__border--width-txt, .main__border--link {
   width: 92%;
 }
 
-.header__h1, section {
+.main__h1, section {
   padding-top: 8%;
 }
 
-.header__h1--style, .header--grey, .header__subtitle--style, .nav__number, .nav__box, .nav__menu, .item--color {
+.main__h1--style, .main--grey, .main__subtitle--style, .nav__number, .nav__box, .nav__menu, .item--color {
   align-items: center;
 }
 
-.item__icon__heart, .header__h1--style {
+.item__icon__heart, .main__h1--style {
   margin-top: 2%;
 }
 
-.header__h1--style, nav h2, section h2 {
+.main__h1--style, nav h2, section h2 {
   font-size: 130%;
 }
 
-.header__h1--style, .header__subtitle--style, .header--grey, nav, .item__icon--dispo {
+.main__h1--style, .main__subtitle--style, .main--grey, nav, .item__icon--dispo {
   flex-direction: column;
 }
 
-.header__subtitle--style {
+.main__subtitle--style {
   font-size: 100%;
   margin-bottom: 8%;
 }
 
-.header--grey {
+.main--grey {
   padding-bottom: 15%;
   padding-left: 3%;
   padding-right: 3%;
@@ -175,7 +175,7 @@ nav, .nav__box {
   margin-left: 2%;
 }
 
-.nav__box, .header__shadow--link, section img {
+.nav__box, .main__shadow--link, section img {
   width: 100%;
 }
 
@@ -205,7 +205,7 @@ nav h2 {
   width: 12%;
 }
 
-.header__border--link {
+.main__border--link {
   color: black;
 }
 
@@ -269,11 +269,15 @@ section img {
 }
 
 @media all and (min-width: 458px) {
-  .header--grey {
+  .main__h1--space {
+    margin-right: 7px;
+  }
+
+  .main--grey {
     padding-bottom: 5%;
   }
 
-  .header__h1 {
+  .main__h1 {
     padding-top: 0%;
   }
 
@@ -293,11 +297,52 @@ section img {
     width: 50%;
   }
 
-  .header__h1--style {
+  .main__h1--style {
     flex-direction: initial;
   }
+
+  .main__subtitle--style {
+    margin-bottom: 4%;
+  }
+
+  .main__h1 {
+    padding-top: 4%;
+  }
+
+  .item__img, section img {
+    height: 210px;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .item--color {
+    font-size: 85%;
+  }
+
+  .item__icon h2 {
+    font-size: 110%;
+  }
+
+  .item__icon--size {
+    font-size: 100%;
+  }
+
+  h2 {
+    margin-bottom: 10%;
+  }
+
+  .item__icon {
+    height: 60px;
+    padding: 3%;
+  }
+
+  .item__icon--dispo {
+    justify-content: space-around;
+  }
 }
-.header-menu__img {
+.main__menu__img {
   height: 250px;
   object-fit: cover;
 }
@@ -401,23 +446,45 @@ h4 {
   .main__title {
     position: initial;
     padding-bottom: 0%;
+  }
+
+  .main__title, h3 {
     justify-content: center;
   }
 
   .main__title h2 {
-    margin-right: 5%;
+    margin-right: 2%;
   }
 
   .section__details--margin {
-    margin-bottom: 5%;
-  }
-
-  .section__bouton {
-    padding-bottom: 5%;
+    margin-bottom: 0%;
   }
 
   .section__details, .section__details--margin {
     padding-top: 0%;
+  }
+
+  h3 {
+    display: flex;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .section__item {
+    height: 90px;
+    justify-content: space-between;
+  }
+
+  .section__details--margin, .section__menu--pading, .section__bouton {
+    padding-bottom: 5%;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .section__price {
+    font-size: 18px;
   }
 }
 .header__icon {
