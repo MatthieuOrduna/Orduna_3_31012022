@@ -183,14 +183,8 @@ section img{
 
 @media all and (min-width:458px)
 {
-    .main__h1--space{
-        margin-right: 7px;
-    }
     .main--grey{
         padding-bottom : 5%;
-    }
-    .main__h1{
-        padding-top : 0%;
     }
     nav{
         padding-top : 2%;
@@ -204,14 +198,16 @@ section img{
     .item{
         width: 50%;
     }
-    .main__h1--style{
-        flex-direction: initial;
-    }
     .main__subtitle--style{
         margin-bottom: 4%;
     }
-    .main__h1{
+    h1{
         padding-top: 4%;
+        margin-right: 7px;
+        flex-direction: initial;
+    }
+    .main__h1--space{
+        margin-right : 5px;
     }
     .item__img, section img{
         height : 210px;

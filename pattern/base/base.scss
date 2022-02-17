@@ -1,6 +1,4 @@
 @font-face { font-family: Roboto; src: url(Roboto-Regular.ttf),}
-@font-face { font-family: RobotoBold; src: url(Roboto-Bold.ttf),}
-@font-face { font-family: RobotoBlack; src: url(Roboto-Black.ttf),}
 @font-face { font-family: Shrikhand; src: url(Shrikhand-Regular.ttf),}
 
 body{
@@ -16,5 +14,34 @@ img{
 a{
     text-decoration: none;
     color : black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    align-items: center;
+    margin-top : 2%;
+    font-size: 130%;
+    flex-direction: column;
+}
+
+h2{
+    margin-bottom: 5%;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: small;
+    border-bottom: #99e2d0 solid 2px;
+    width : 12%;
+    padding-bottom: 2%;
+    margin-left: 3%;
+}
+
+h4{
+    margin : 0%;
+    font-size: initial;
+    margin-top: 2%;
 }
 

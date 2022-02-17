@@ -2,15 +2,7 @@
     height: 250px;
     object-fit: cover;
     }
-    
-    h3{
-        text-transform: uppercase;
-    }
 
-    .section__price, h3{
-        font-size:small;
-    }
-    
     .main__title{
         align-items: center;
     }
@@ -39,19 +31,6 @@
 
     .section__bouton{
         justify-content: center;
-    }
-    
-    h3{
-        border-bottom: #99e2d0 solid 2px;
-        width: 12%;
-        padding-bottom: 2%;
-        margin-left: 3%;
-    }
-    
-    h4{
-        margin : 0%;
-        font-size: initial;
-        margin-top: 2%;
     }
     
     .section__price{
@@ -108,6 +87,7 @@
         justify-content: center;
     }
     .main__title h2{
+        margin: 0%;
         margin-right: 2%;
     }
     .section__details--margin{

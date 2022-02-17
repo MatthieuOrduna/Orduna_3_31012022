@@ -6,14 +6,6 @@
   src: url(Roboto-Regular.ttf);
 }
 @font-face {
-  font-family: RobotoBold;
-  src: url(Roboto-Bold.ttf);
-}
-@font-face {
-  font-family: RobotoBlack;
-  src: url(Roboto-Black.ttf);
-}
-@font-face {
   font-family: Shrikhand;
   src: url(Shrikhand-Regular.ttf);
 }
@@ -30,6 +22,35 @@ img {
 a {
   text-decoration: none;
   color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+  align-items: center;
+  margin-top: 2%;
+  font-size: 130%;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 5%;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: small;
+  border-bottom: #99e2d0 solid 2px;
+  width: 12%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+}
+
+h4 {
+  margin: 0%;
+  font-size: initial;
+  margin-top: 2%;
 }
 
 .footer--font {
@@ -269,16 +290,8 @@ section img {
 }
 
 @media all and (min-width: 458px) {
-  .main__h1--space {
-    margin-right: 7px;
-  }
-
   .main--grey {
     padding-bottom: 5%;
-  }
-
-  .main__h1 {
-    padding-top: 0%;
   }
 
   nav {
@@ -297,16 +310,18 @@ section img {
     width: 50%;
   }
 
-  .main__h1--style {
-    flex-direction: initial;
-  }
-
   .main__subtitle--style {
     margin-bottom: 4%;
   }
 
-  .main__h1 {
+  h1 {
     padding-top: 4%;
+    margin-right: 7px;
+    flex-direction: initial;
+  }
+
+  .main__h1--space {
+    margin-right: 5px;
   }
 
   .item__img, section img {
@@ -347,14 +362,6 @@ section img {
   object-fit: cover;
 }
 
-h3 {
-  text-transform: uppercase;
-}
-
-.section__price, h3 {
-  font-size: small;
-}
-
 .main__title {
   align-items: center;
 }
@@ -383,19 +390,6 @@ h3 {
 
 .section__bouton {
   justify-content: center;
-}
-
-h3 {
-  border-bottom: #99e2d0 solid 2px;
-  width: 12%;
-  padding-bottom: 2%;
-  margin-left: 3%;
-}
-
-h4 {
-  margin: 0%;
-  font-size: initial;
-  margin-top: 2%;
 }
 
 .section__price {
@@ -453,6 +447,7 @@ h4 {
   }
 
   .main__title h2 {
+    margin: 0%;
     margin-right: 2%;
   }
 
