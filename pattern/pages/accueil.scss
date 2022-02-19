@@ -7,7 +7,7 @@ section, .main--grey, .nav__box{
     background-color: #eaeaea;
 }
 
-.nav__menu, .item__icon--dispo, .main__shadow--link, .nav__number, nav, .main__subtitle--style, .main--grey, .main__h1--style, .item--color, .main__h1, .item__screen, .item__icon, .nav__box, .main__border, .header__logo{
+.nav__menu, .item__icon--dispo, .nav__number, nav, .main__subtitle--style, .main--grey, .main__h1--style, .item--color, .main__h1, .item__screen, .item__icon, .nav__box, .main__border, .header__logo{
     display: flex;
 }
 
@@ -27,7 +27,7 @@ section, .main--grey, .nav__box{
     margin : 3%;
 }
 
-.header__logo, .main__h1, .nav__number, .item--color, .main__shadow--link{
+.header__logo, .main__h1, .nav__number, .item--color{
     justify-content: center;
 }
 
@@ -80,15 +80,17 @@ section, .main--grey, .nav__box{
     width: 25px;
     height : 25px;
     position: absolute; left: 9%;
-    color: white;
     background-color: #9356dc;
+}
+.main__shadow--link, .nav__number{
+    color: white;
 }
 
 nav, .nav__box{
     margin-left: 2%;
 }
 
-.nav__box, .main__shadow--link, section img{
+.nav__box, section img{
     width: 100%;
 }
 
