@@ -91,49 +91,6 @@ footer div {
     padding: 30px;
   }
 }
-.main__shadow {
-  width: 65%;
-  height: 50px;
-  justify-content: center;
-  font-size: 90%;
-  color: white;
-  border-style: none;
-  align-items: center;
-  display: flex;
-  box-shadow: #e9e6e6 6px 6px 6px;
-  border-radius: 25px;
-  background: radial-gradient(farthest-corner at 49px 1px, #f28be0 0%, #782cd3 100%);
-}
-
-.button__premium {
-  width: 65%;
-  height: 50px;
-  justify-content: center;
-  font-size: 90%;
-  color: white;
-  border-style: none;
-  align-items: center;
-  display: flex;
-  box-shadow: #e9e6e6 6px 6px 6px;
-  border-radius: 25px;
-  background: radial-gradient(farthest-corner at 49px 1px, #f28be0 0%, #782cd3 100%);
-}
-
-.button__nul {
-  background-color: white;
-  border-style: none;
-  display: flex;
-  font-size: 16px;
-  height: 25px;
-}
-
-.button__heart-menu {
-  border: none;
-  font-size: 22px;
-  display: flex;
-  height: 40px;
-}
-
 section, .main--grey, .nav__box {
   background-color: #f6f6f6;
 }
@@ -321,6 +278,28 @@ section img {
   left: 78%;
 }
 
+.button__nul {
+  background-color: white;
+  border-style: none;
+  display: flex;
+  font-size: 16px;
+  height: 25px;
+}
+
+.button__premium {
+  width: 65%;
+  height: 50px;
+  justify-content: center;
+  font-size: 90%;
+  color: white;
+  border-style: none;
+  align-items: center;
+  display: flex;
+  box-shadow: #e9e6e6 6px 6px 6px;
+  border-radius: 25px;
+  background: radial-gradient(farthest-corner at 49px 1px, #f28be0 0%, #782cd3 100%);
+}
+
 @media all and (min-width: 458px) {
   .main--grey {
     padding-bottom: 5%;
@@ -433,10 +412,6 @@ section img {
   font-weight: bold;
 }
 
-.main__shadow {
-  box-shadow: #e9e6e6 6px 6px 6px;
-}
-
 .section__menu {
   padding-top: 1%;
 }
@@ -466,6 +441,45 @@ section img {
 
 .section__bouton {
   padding-bottom: 20%;
+}
+
+.button--color {
+  color: white;
+}
+
+.button__icon__heart {
+  left: 78%;
+  margin-top: 25%;
+}
+
+.button__nul {
+  background-color: white;
+  border-style: none;
+  display: flex;
+  font-size: 16px;
+  height: 25px;
+}
+
+.button__premium {
+  width: 65%;
+  height: 50px;
+  justify-content: center;
+  font-size: 90%;
+  color: white;
+  border-style: none;
+  align-items: center;
+  display: flex;
+  box-shadow: #e9e6e6 6px 6px 6px;
+  border-radius: 25px;
+  background: radial-gradient(farthest-corner at 49px 1px, #f28be0 0%, #782cd3 100%);
+}
+
+.button__heart-menu {
+  border: none;
+  font-size: 22px;
+  display: flex;
+  height: 40px;
+  background-color: #f6f6f6;
 }
 
 @media all and (min-width: 426px) {

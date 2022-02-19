@@ -1,0 +1,27 @@
+@mixin button__premium{
+    width: 65%;
+    height : 50px;
+    justify-content: center;
+    font-size: 90%;
+    color : white;
+    border-style: none;
+    align-items: center;
+    display :flex;
+    box-shadow: rgb(233, 230, 230) 6px 6px 6px;
+    border-radius : 25px;
+    background: radial-gradient(farthest-corner at 49px 1px, lighten(#ef74da, 5)0%, darken(#9356dc, 10)100%);
+}
+@mixin button__nul{
+    background-color: white;
+    border-style: none;
+    display : flex;
+    font-size : 16px;
+    height: 25px;
+}
+@mixin button__heart-menu{
+    border: none;
+    font-size : 22px;
+    display: flex;
+    height: 40px;
+    background-color: #f6f6f6;
+}

@@ -83,7 +83,7 @@ section, .main--grey, .nav__box{
     background-color: #9356dc;
 }
 .main__shadow--link, .nav__number{
-    color: white;
+    color: white; 
 }
 
 nav, .nav__box{
@@ -181,6 +181,14 @@ section img{
 .item__icon__heart{
     position: absolute;
     left : 78%;
+}
+
+.button__nul{
+    @include button__nul;
+}
+
+.button__premium{
+    @include button__premium;
 }
 
 @media all and (min-width:458px)

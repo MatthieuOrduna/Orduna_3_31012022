@@ -41,10 +41,6 @@
     .section__price--bold{
         font-weight: bold;
     }
-    
-    .main__shadow{
-        box-shadow: rgb(233, 230, 230) 6px 6px 6px;
-    }
 
     .section__menu{
         padding-top: 1%;
@@ -75,6 +71,27 @@
     
     .section__bouton{
         padding-bottom:20%;
+    }
+
+    .button--color{
+        color : white;
+    }
+
+    .button__icon__heart{
+        left : 78%;
+        margin-top : 25%;
+    }
+
+    .button__nul{
+        @include button__nul;
+    }
+
+    .button__premium{
+        @include button__premium;
+    }
+
+    .button__heart-menu{
+        @include button__heart-menu;
     }
 
     @media all and (min-width:426px)
