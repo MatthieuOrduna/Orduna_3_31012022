@@ -12,8 +12,8 @@
 }
 
 footer{
-    background-color: #353535;
-    color: white;
+    background-color: $footer--color;
+    color: $white;
     padding : 7%;
 }
 
@@ -27,7 +27,7 @@ footer div{
 }
 .footer--link{
     text-decoration: none;
-    color : white;
+    color : $white;
 }
 
 @media all and (min-width:458px)

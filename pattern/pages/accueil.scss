@@ -1,5 +1,5 @@
 section, .main--grey, .nav__box{
-    background-color: #f6f6f6;
+    background-color: $grey;
 }
 
 .main__border{ 
@@ -12,7 +12,7 @@ section, .main--grey, .nav__box{
 }
 
 .item, .section__item, .item__icon{
-    background-color: white;
+    background-color: $white;
 }
 
 .section__item, .nav__box{
@@ -80,10 +80,10 @@ section, .main--grey, .nav__box{
     width: 25px;
     height : 25px;
     position: absolute; left: 9%;
-    background-color: #9356dc;
+    background-color: $purple;
 }
 .main__shadow--link, .nav__number{
-    color: white; 
+    color: $white; 
 }
 
 nav, .nav__box{
@@ -146,7 +146,7 @@ section img{
     position: absolute;
     right : 12%;
     width : 15%;
-    background-color: #99e2d0;
+    background-color: $mint;
     margin-top : 3%;
     border-radius: 5px;    
     color : #149374;
