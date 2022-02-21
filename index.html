@@ -10,7 +10,9 @@
     <link rel="shortcut icon" href="images/logo/ohmyfood.png" type="image/png"/> <!--Met un logo dans l'onglet du navigateur.-->
 </head>
 <body>
-    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <div class="load-spinner">
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
     <header>
         <div class="header__icon">
             <div class="header__img-logo">
@@ -24,14 +26,15 @@
     </header>
     <main>
         <div class="main__border"> 
-            <div class="main__border--width-icon">
-                <i class="fas fa-map-marker-alt"></i>
+            <div class="main__border--larger">
+                <span class="main__border--width-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </span>
+                <a class="main__border--link" href="#">
+                    <input class="main__border--width-txt" value="Paris, Belleville">
+                    </input>
+                </a>
             </div>
-            <a class="main__border--link" href="#">
-            <div class="main__border--width-txt">
-                Paris, Belleville
-            </div>
-            </a>
         </div>
         <div class="main--grey">
                 <h1>
