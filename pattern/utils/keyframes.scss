@@ -16,3 +16,14 @@
         z-index: -1000;
     }
 }
+
+@keyframes bright {
+    0% {
+    -webkit-filter : brightness(1);
+    box-shadow: rgb(233, 230, 230) 6px 6px 6px;
+    }
+    100% {
+    -webkit-filter : brightness(1.2);
+    box-shadow: rgb(160, 158, 158) 6px 6px 6px;
+    }
+  }

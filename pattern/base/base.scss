@@ -13,7 +13,7 @@ img{
 
 a{
     text-decoration: none;
-    color : black;
+    color : $black;
 }
 
 h1{
@@ -33,7 +33,7 @@ h2{
 h3{
     text-transform: uppercase;
     font-size: small;
-    border-bottom: #99e2d0 solid 2px;
+    border-bottom: $mint solid 2px;
     width : 12%;
     padding-bottom: 2%;
     margin-left: 3%;

@@ -7,7 +7,11 @@ section, .main--grey, .nav__box{
     background-color: #eaeaea;
 }
 
-.nav__menu, .item__icon--dispo, .nav__number, nav, .main__subtitle--style, .main--grey, .main__h1--style, .item--color, .main__h1, .item__screen, .item__icon, .nav__box, .main__border, .header__logo{
+.main__border--larger{
+    margin-right: 5%;
+}
+
+.nav__menu, .item__icon--dispo, .main__border--larger, .nav__number, nav, .main__subtitle--style, .main--grey, .main__h1--style, .item--color, .main__h1, .item__screen, .item__icon, .nav__box, .main__border, .header__logo{
     display: flex;
 }
 
@@ -32,21 +36,29 @@ section, .main--grey, .nav__box{
 }
 
 .main__border{
-    padding-left : 26%;
+    justify-content: center;
+    align-items: center;
     padding-top: 3%;
     padding-bottom: 4%;
 }
 
 .main__border--width-icon{
-    width: 8%;
+    margin-right: 8%;
 }
 
-.main__border--width-txt, .main__border--link{
-    width: 92%;
+.main__border--width-txt{
+    font-size: 16px;
+    border : none;
+    width : 140px;
+    background-color: #eaeaea;
 }
 
 .main__h1, section{
     padding-top: 8%;
+}
+
+.main__h1--space{
+    margin-right : 6px;
 }
 
 .main__h1--style, .main--grey, .main__subtitle--style, .nav__number, .nav__box, .nav__menu, .item--color{
@@ -122,6 +134,7 @@ nav h2{
 
 .main__border--link{
     color : $black;
+
 }
 
 .nav__box--font, .item__icon h2{
@@ -191,7 +204,7 @@ section img{
     @include button__premium;
 }
 
-@media all and (min-width:458px)
+@media all and (min-width:426px)
 {
     .main--grey{
         padding-bottom : 5%;
