@@ -141,6 +141,13 @@ nav h2{
     font-size: 90%;
 }
 
+;.nav__box:hover{
+    background-color : #f5edff;
+    .nav__box--space-icon{
+        color : $purple;
+    }
+}
+
 section{
     padding-bottom: 8%;
     margin-top: 10%;
@@ -194,6 +201,10 @@ section img{
 .item__icon__heart{
     position: absolute;
     left : 78%;
+}
+
+.full-heart{
+    color : $purple;
 }
 
 .button__nul{
