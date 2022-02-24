@@ -114,7 +114,24 @@
 
     .button__heart-menu{
         @include button__heart-menu;
+        align-items: center;
     }
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
 
     @media all and (min-width:426px)
 {

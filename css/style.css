@@ -522,6 +522,7 @@ span {
   display: flex;
   height: 40px;
   background-color: #f6f6f6;
+  align-items: center;
 }
 
 @media all and (min-width: 426px) {
@@ -743,33 +744,29 @@ span {
 }
 
 .section__order {
-  width: 20%;
-  background-color: #99e2d0;
-  height: 60px;
-  position: absolute;
-  left: 78%;
+  color: white;
   border-radius: 0 15px 15px 0;
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__box {
+  background-color: #99e2d0;
+  width: 30%;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media all and (min-width: 426px) {
   .section__order {
-    height: 90px;
+    font-size: xx-large;
   }
 }
-.section__order:hover {
-  animation: moove-right 2s;
-}
-
-@keyframes moove-right {
-  0% {
-    display: none;
-  }
-  100% {
-    display: block;
-  }
-}
-.empty-heart:active {
+.empty-hear:active {
   animation: fill 0.3s ease-in-out;
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -779,7 +776,7 @@ span {
 }
 
 @media all and (min-width: 426px) {
-  .empty-heart:hover {
+  .empty-hear:hover {
     animation: fill 0.3s ease-in-out;
     background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -793,10 +790,59 @@ span {
     opacity: 0;
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.2;
   }
   100% {
     opacity: 1;
+  }
+}
+.checkbox-like input[type=checkbox], .checkbox-like .checked {
+  display: none;
+  -webkit-animation: like 2s;
+  animation: like 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.checkbox-like input[type=checkbox], .checkbox-like .checked {
+  display: none;
+  -webkit-animation: like 2s;
+  animation: like 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.checkbox-like input[type=checkbox]:checked ~ .checked {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0);
+  font-size: 25px;
+  padding: 0;
+}
+
+.checkbox-like input[type=checkbox]:checked ~ .unchecked {
+  display: none;
+}
+
+.unchecked {
+  font-size: 25px;
+  padding: 0;
+}
+
+@keyframes like {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background: -o-linear-gradient(top, #9356DC, #FF79DA);
+    background: linear-gradient(to bottom, #9356DC, #FF79DA);
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background: -o-linear-gradient(top, #9356DC, #FF79DA);
+    background: linear-gradient(to bottom, #9356DC, #FF79DA);
+    -webkit-background-clip: text;
   }
 }
 
