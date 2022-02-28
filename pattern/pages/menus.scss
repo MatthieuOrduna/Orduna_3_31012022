@@ -63,13 +63,12 @@
         margin-bottom: 5%;
         padding-left: 3%;
         flex-direction: row;
-        justify-content: space-between;
     }
 
     h4{
         line-height : 25px;
-        width : 300px;
-        max-width : 360px;
+        width : 100%;
+        max-width : 100%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -159,7 +158,6 @@
     }
     .section__item{
         height: 90px;
-        justify-content: space-between;
         flex-direction: row;
     }
     .section__details--margin, .section__menu--pading, .section__bouton{
@@ -168,7 +166,7 @@
     h4{
         font-size: 20px;
         line-height : 30px;
-        width : 360px;
+        width : 100%;
     }
     h4 p{
         font-weight: initial;

@@ -20,13 +20,16 @@
 
 .section__box{
   background-color: $mint;
-  width : 30%;
+  width : 0%;
   height: 100%;
   border-radius: 0 15px 15px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
+
+
 
 @media all and (min-width:426px)
 {
@@ -36,52 +39,37 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.empty-hear {
-  &:active {
-    animation: fill 0.3s ease-in-out;
-    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    font-weight: bold;
+@keyframes width {
+  0%{
+    width : 0%;
+  }
+  100%{
+    width : 30%;
   }
 }
 
-@media all and (min-width:426px){
-  .empty-hear {
-    &:hover {
-      animation: fill 0.3s ease-in-out;
-      background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-      background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color:transparent;
-      font-weight: bold;
-    }
+a:hover{
+  .section__box{
+    transform: width (30%);
+    transition: width 1s;
+  }
+  .arrow-green{
+    transform: rotate(360deg);
+    transition: transform 1s;
   }
 }
 
-@keyframes fill {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -139,3 +127,59 @@
           -webkit-background-clip: text;
       }
   }
+  
+  @media all and (min-width:426px){
+    .unchecked {
+      &:hover {
+        animation: fill 0.3s ease-in-out;
+        background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  @keyframes fill {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.section__menu{
+  animation: steps 1s ease-in-out;
+}
+.section__details--time{
+  animation: steps 2s ease-in-out;
+}
+.section__details--margin{
+  animation: steps 3s ease-in-out;
+}
+
+
+
+
+  @keyframes steps{
+    0%{
+      opacity : 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
