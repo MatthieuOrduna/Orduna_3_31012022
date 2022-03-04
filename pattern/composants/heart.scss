@@ -1,0 +1,50 @@
+.checkbox-like input[type=checkbox], .checkbox-like .checked {
+    display: none;
+    -webkit-animation: like 2s;
+    animation: like 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    }
+  
+    .checkbox-like input[type=checkbox], .checkbox-like .checked {
+    display: none;
+    -webkit-animation: like 2s;
+    animation: like 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    }
+  
+    .checkbox-like input[type=checkbox]:checked ~ .checked {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0);
+        font-size : 25px;
+        padding: 0;
+    }
+  
+    .checkbox-like input[type=checkbox]:checked ~ .unchecked {
+      display: none;
+  }
+  
+    .unchecked{
+      font-size: 25px;
+      padding : 0;
+    }
+  
+    .checked, .unchecked{
+      cursor: pointer;
+    }
+  
+    
+    
+    @media all and (min-width:426px){
+      .unchecked {
+        &:hover {
+          animation: fill 0.3s ease-in-out;
+          background:linear-gradient(to left, $purple, #b35cdc, #cf64dc, #e86edb, $pink);
+          background:-webkit-linear-gradient(to left, $purple, #b35cdc, #cf64dc, #e86edb, $pink);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color:transparent;
+          font-weight: bold;
+        }
+      }
+    }

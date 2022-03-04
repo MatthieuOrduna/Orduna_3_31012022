@@ -27,3 +27,51 @@
     box-shadow: rgb(160, 158, 158) 6px 6px 6px;
     }
   }
+
+  @keyframes sides{
+    0%{
+      width : 0%;
+    }
+    100%{
+      width : 30%;
+    }
+  }
+
+  @keyframes like{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+        background: -o-linear-gradient(top, $purple, $pink);
+        background: linear-gradient(to bottom, $purple, $pink);
+        -webkit-background-clip: text;
+    }
+    100% {
+        background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+        background: -o-linear-gradient(top, #9356DC, #FF79DA);
+        background: linear-gradient(to bottom, #9356DC, #FF79DA);
+        -webkit-background-clip: text;
+    }
+}
+
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes steps{
+  0%{
+    opacity : 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

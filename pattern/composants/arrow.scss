@@ -1,0 +1,27 @@
+.section__item{
+    &:active{
+      .section__box{
+        animation : sides 0.5s forwards;
+        .arrow-green{
+          transform: rotate(360deg);
+          transition: transform 0.5s;
+        }
+      }
+  }
+  }
+  
+  @media all and (min-width:426px)
+  {
+  .section__item{
+    &:hover{
+      .section__box{
+        animation : sides 0.5s forwards;
+        .arrow-green{
+          transform: rotate(360deg);
+          transition: transform 0.5s;
+        }
+      }
+    }
+  }
+  }
+    
