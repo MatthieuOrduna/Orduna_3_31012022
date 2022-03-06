@@ -7,18 +7,19 @@
     "sass": "sass --watch ./sass.scss:css/style.css",
     "prefix": "postcss ./wacor/projet3/css/style.css --use autoprefixer -d ./wacor/projet3/prefixed/"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MatthieuOrduna/Orduna_3_31012022.git"
   },
   "author": "",
   "license": "ISC",
-  "browserslist":"last 4 versions",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/MatthieuOrduna/Orduna_3_31012022/issues"
   },
-  "homepage": "https://github.com/MatthieuOrduna/Orduna_3_31012022#readme"
+  "homepage": "https://github.com/MatthieuOrduna/Orduna_3_31012022#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7"
+  }
 }
-
-
