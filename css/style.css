@@ -136,6 +136,10 @@ section, .main--grey, .nav__box {
   margin-right: 8%;
 }
 
+.main__border--width-txt, .main__shadow--link, .button__premium {
+  cursor: pointer;
+}
+
 .main__border--width-txt {
   font-size: 16px;
   border: none;
